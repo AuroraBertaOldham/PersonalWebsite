@@ -1,0 +1,81 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 899px) {
+	body 
+	{
+		background-image: url("../images/bg.png");
+		background-repeat: repeat;
+		margin: 10px;
+		display: grid;
+		grid-template-columns: auto;
+		column-gap: 10px;
+		row-gap: 10px;
+		grid-template-areas: 'about' 
+							'footer';
+	}
+}
+
+@media screen and (min-width: 900px) {
+	body 
+	{
+		background-image: url("../images/bg.png");
+		background-repeat: repeat;
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-top: 10px;
+		display: grid;
+		grid-template-columns: 470px auto;
+		column-gap: 10px;
+		row-gap: 10px;
+		grid-template-areas: 'about about about about' 
+							'footer footer footer footer';
+	}
+}
+
+h1 {
+	color: white;
+}
+
+a:link
+{
+    color: #2ce8f5;
+    text-decoration: none;
+}
+  
+a:link:active, a:visited, a:visited:active 
+{
+    color: #2c65f5;
+}
+
+.footer-text
+{
+	text-align: center;
+	font-size: 15px;
+	color: #0095e9;
+}
+
+.footer-subtext
+{
+	text-align: center;
+	font-size: 12px;
+	color: #484e65;
+}
+
+.card 
+{
+	background-color: #1c2136;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.card.about {
+	grid-area: about;
+	padding: 10px;
+}
+
+.card.footer {
+	grid-area: footer;
+}
