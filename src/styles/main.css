@@ -13,6 +13,14 @@
 		column-gap: 10px;
 		row-gap: 10px;
 		grid-template-areas: 'about' 
+							'beacongames'
+							'everchanging'
+							'evengine'
+							'verdureos'
+							'verdureproject'
+							'sharpfnt'
+							'fnttools'
+							'yachtelementary'
 							'footer';
 	}
 }
@@ -28,16 +36,28 @@
 		margin-bottom: auto;
 		margin-top: 10px;
 		display: grid;
-		grid-template-columns: 470px auto;
+		grid-template-columns: auto auto auto auto;
 		column-gap: 10px;
 		row-gap: 10px;
 		grid-template-areas: 'about about about about' 
+							'beacongames everchanging everchanging evengine'
+							'verdureos verdureos verdureproject evengine'
+							'yachtelementary fnttools sharpfnt sharpfnt'
 							'footer footer footer footer';
 	}
 }
 
 h1 {
 	color: white;
+}
+
+h3 {
+	color: #0095e9;
+	margin: 0px;
+}
+
+p {
+	color: #e6e6e6;
 }
 
 a:link
@@ -65,6 +85,27 @@ a:link:active, a:visited, a:visited:active
 	color: #484e65;
 }
 
+.icon {
+	width: 45px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.tiny-icon {
+	width: 22px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.project-title-bar {
+	display: flex;
+	flex-direction: row;
+}
+
+.accent {
+	color: #0095e9;
+}
+
 .card 
 {
 	background-color: #1c2136;
@@ -73,6 +114,46 @@ a:link:active, a:visited, a:visited:active
 
 .card.about {
 	grid-area: about;
+	padding: 10px;
+}
+
+.card.beacongames {
+	grid-area: beacongames;
+	padding: 10px;
+}
+
+.card.everchanging {
+	grid-area: everchanging;
+	padding: 10px;
+}
+
+.card.evengine {
+	grid-area: evengine;
+	padding: 10px;
+}
+
+.card.verdureos {
+	grid-area: verdureos;
+	padding: 10px;
+}
+
+.card.verdureproject {
+	grid-area: verdureproject;
+	padding: 10px;
+}
+
+.card.sharpfnt {
+	grid-area: sharpfnt;
+	padding: 10px;
+}
+
+.card.fnttools {
+	grid-area: fnttools;
+	padding: 10px;
+}
+
+.card.yachtelementary {
+	grid-area: yachtelementary;
 	padding: 10px;
 }
 
