@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: #e6e6e6;
+}
+
+a:link
+{
+    color: #2ce8f5;
+    text-decoration: none;
+}
+  
+a:link:active, a:visited, a:visited:active 
+{
+    color: #2c65f5;
+}
+
+.card 
+{
+	background-color: #1c2136;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.accent {
+	color: #0095e9;
+}

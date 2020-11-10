@@ -1,6 +1,5 @@
-* {
-    font-family: 'Inter', sans-serif;
-}
+@charset "utf-8";
+/* CSS Document */
 
 @media screen and (max-width: 899px) {
 	body 
@@ -47,28 +46,9 @@
 	}
 }
 
-h1 {
-	color: white;
-}
-
 h3 {
 	color: #0095e9;
 	margin: 0px;
-}
-
-p {
-	color: #e6e6e6;
-}
-
-a:link
-{
-    color: #2ce8f5;
-    text-decoration: none;
-}
-  
-a:link:active, a:visited, a:visited:active 
-{
-    color: #2c65f5;
 }
 
 .footer-text
@@ -100,16 +80,6 @@ a:link:active, a:visited, a:visited:active
 .project-title-bar {
 	display: flex;
 	flex-direction: row;
-}
-
-.accent {
-	color: #0095e9;
-}
-
-.card 
-{
-	background-color: #1c2136;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.11);
 }
 
 .card.about {

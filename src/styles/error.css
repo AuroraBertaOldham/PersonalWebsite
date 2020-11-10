@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 
+{
+	text-align: center;
+}
+
+p 
+{
+	text-align: center;
+}
+
+@media screen and (max-width: 899px) {
+	body 
+	{
+		background-image: url("../images/bg.png");
+        background-repeat: repeat;
+        margin: 10px;
+        max-width: 900px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	body 
+	{
+		background-image: url("../images/bg.png");
+        background-repeat: repeat;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
+	}
+}
+
+.card.error 
+{
+    padding: 10px;
+}
