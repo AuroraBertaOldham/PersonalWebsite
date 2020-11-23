@@ -7,10 +7,13 @@
 
 h1 {
 	color: white;
+	margin-bottom: 10px;
 }
 
 p {
 	color: #e6e6e6;
+	margin-block-start: 10px;
+	margin-block-end: 10px;
 }
 
 a:link
@@ -28,6 +31,9 @@ a:link:active, a:visited, a:visited:active
 {
 	background-color: #1c2136;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.11);
+	border: #484e65;
+	border-width: 1px;
+	border-style: solid;
 }
 
 .accent {

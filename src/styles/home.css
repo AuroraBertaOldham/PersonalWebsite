@@ -22,6 +22,22 @@
 							'yachtelementary'
 							'footer';
 	}
+
+	.about-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.me 
+	{
+		width: 100%;
+		height: auto;
+		margin-top: 10px;
+		outline-color:  #484e65;
+		outline-style: solid;
+		outline-width: 2px;
+		outline-offset: -2px;
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -43,6 +59,21 @@
 							'verdureos verdureos verdureproject evengine'
 							'yachtelementary fnttools sharpfnt sharpfnt'
 							'footer footer footer footer';
+	}
+	.about-content {
+		display: flex;
+		flex-direction: row;
+	}
+	.me 
+	{
+		display: block;
+		height: 436px;
+		margin-right: 10px;
+		margin-top: 10px;
+		outline-color:  #484e65;
+		outline-style: solid;
+		outline-width: 2px;
+		outline-offset: -2px;
 	}
 }
 
