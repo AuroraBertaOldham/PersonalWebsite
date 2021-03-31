@@ -33,9 +33,7 @@
 		width: 100%;
 		height: auto;
 		margin-top: 10px;
-		outline-color:  #484e65;
-		outline-style: solid;
-		outline-width: 2px;
+		outline: #484e65 solid 2px;
 		outline-offset: -2px;
 	}
 }
@@ -46,10 +44,7 @@
 		background-image: url("../images/bg.png");
 		background-repeat: repeat;
 		max-width: 900px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: auto;
-		margin-top: 10px;
+		margin: 10px auto auto;
 		display: grid;
 		grid-template-columns: auto auto auto auto;
 		column-gap: 10px;
@@ -70,23 +65,21 @@
 		height: 436px;
 		margin-right: 10px;
 		margin-top: 10px;
-		outline-color:  #484e65;
-		outline-style: solid;
-		outline-width: 2px;
+		outline: #484e65 solid 2px;
 		outline-offset: -2px;
 	}
 }
 
 h3 {
-	color: #0095e9;
-	margin: 0px;
+	color: #0f83f6;
+	margin: 0;
 }
 
 .footer-text
 {
 	text-align: center;
 	font-size: 15px;
-	color: #0095e9;
+	color: #0f83f6;
 }
 
 .footer-subtext

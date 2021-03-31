@@ -18,24 +18,22 @@ p {
 
 a:link
 {
-    color: #2ce8f5;
+    color: #13bcf7;
     text-decoration: none;
 }
   
 a:link:active, a:visited, a:visited:active 
 {
-    color: #2c65f5;
+    color: #13bcf7;
 }
 
 .card 
 {
-	background-color: #1c2136;
+	background-color: #171b30;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.11);
-	border: #484e65;
-	border-width: 1px;
-	border-style: solid;
+	border: 1px solid #424863;
 }
 
 .accent {
-	color: #0095e9;
+	color: #0f83f6;
 }

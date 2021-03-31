@@ -1,16 +1,25 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Aurora Berta-Oldham">
-		<meta name="description" content="The personal website for Aurora Berta-Oldham.">
-		<meta name="keywords" content="Beacon Games, Everchanging, Verdure, SharpFNT, FNTTools, Aurora Berta-Oldham">
+		<meta name="description" content="The personal website of Aurora Berta-Oldham.">
+		<meta name="keywords" content="Beacon Games, Everchanging, Verdure, Verdure OS, EvEngine, SharpFNT, FNTTools, Aurora Berta-Oldham">
 		<title>Aurora Berta-Oldham</title>
 		<link href="favicon.png" rel="icon" type="image/png">
 		<link href="styles/shared.css" rel="stylesheet" type="text/css">
         <link href="styles/home.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6WMW0JNZG"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-V6WMW0JNZG');
+		</script>
     </head>
 	<body>
         <div class="card about">
@@ -22,21 +31,23 @@
 				<div>
 					<p>I'm a programmer and game developer currently making Everchanging at <a href="https://beacongames.com/">Beacon Games</a>. I'm also working on various other projects that you can learn more about below.</p>
 					<p>
-						On a more personal note, I was born in Canada 🍁 on March 28th, 1998 and later moved to the United States 🗽 when I was 9. During highschool, I taught myself how to program
-						in my spare time and decided to pursue a career in indie game development after graduation. After years of self-discovery, I started my transition from male to female 🏳️‍⚧️ at 21 and it has been the best decision I've ever made. 
-						When I'm not programming 👩‍💻, I enjoy playing the electric guitar 🎸, chatting with friends, and occasionally playing video games 🎮. I also love cats 🐱.
+						On a more personal note, I was born in Canada 🍁 on March 28th, 1998 and later moved to the United States 🗽 when I was 9.  I began teaching myself how to program in middle school and decided to pursue a career in indie game development after graduating high school.
+						When I'm not programming 👩‍💻, I enjoy chatting with friends, reading 📖 , playing video games 🎮, drinking tea ☕, and spending time with my cats 🐱.
 					</p>
 					<p>
-						I primarily program in C# and Rust but I also have varying amounts of experience with JavaScript, C, C++, and Vala. Before I began developing the EvEngine, I started working on several different projects in the Unity game engine. 
-						Aside from programming, I have some experience in web design, graphic design, pixel art.
+						I primarily program in C# and Rust, but I also have varying amounts of experience with C, Vala, and JavaScript. Before I began developing the EvEngine,
+						I started working on several different projects in the Unity game engine. Aside from programming, I have some experience in web design, graphic design, pixel art.
 					</p>
-					<p>You can get into contact with me at <a href="mailto:contact@aurorabertaoldham.com">contact@aurorabertaoldham.com</a>.</p>
+					<p>You can email me at <a href="mailto:contact@aurorabertaoldham.com">contact@aurorabertaoldham.com</a>.</p>
 					<div>
 						<a href="https://twitter.com/AuroraOldham">
 							<img src="images/twitter.png" alt="Twitter Profile" title="Twitter" class="icon">
 						</a>
 						<a href="https://github.com/AuroraBertaOldham">
 							<img src="images/github.png" alt="GitHub Page" title="GitHub" class="icon">
+						</a>
+						<a href="https://www.linkedin.com/in/aurorabertaoldham">
+							<img src="images/linkedin.png" alt="LinkedIn Profile" title="LinkedIn" class="icon">
 						</a>
 					</div>
 				</div>
@@ -52,12 +63,17 @@
 			<p>My indie game company that is currently building Everchanging.</p>
 		</article>
 		<article class="card everchanging">
-			<h3>Everchanging</h3>
-			<p>A city building dungeon crawler RPG that I've been building for several years now. I plan to release the game sometime in the first half of 2021.</p>
+			<div class="project-title-bar">
+				<a href="https://beacongames.com/everchanging.html">
+					<img src="images/web.png" alt="Website" title="Everchanging" class="tiny-icon">
+				</a>
+				<h3>Everchanging</h3>
+			</div>
+			<p>A city-building RPG that I've been developing for several years now. I plan to release the game sometime in 2021.</p>
 		</article>
 		<article class="card evengine">
 			<h3>EvEngine</h3>
-			<p>A 2D C# game engine that I wrote for Everchanging. It only supports Windows and DirectX 11 at the moment. I may port the engine to various other platforms after I release Everchanging and look to bring it to more players.</p>
+			<p>A 2D C# game engine that I wrote for Everchanging. It only supports Windows and DirectX 11 at the moment. I may port it to various other platforms after I release Everchanging.</p>
 		</article>
 		<article class="card verdureos">
 			<div class="project-title-bar">
@@ -66,7 +82,7 @@
 				</a>
 				<h3>Verdure OS</h3>
 			</div>
-			<p>A modern open source operating system for x86_64 PCs that I'm writing in Rust. It is still in very early development but I plan to have a full desktop environment in the future. I also hope to bring it to AArch64 once that is done.</p>
+			<p>A modern open-source operating system for x86_64 PCs that I'm writing in Rust. It is still in very early development, but I plan to have a full desktop environment in the future. I also hope to bring it to AArch64 once that is completed.</p>
 		</article>
 		<article class="card verdureproject">
 			<div class="project-title-bar">
@@ -75,7 +91,7 @@
 				</a>
 				<h3>The Verdure Project</h3>
 			</div>
-			<p>An organization that I'm working on establishing that will manage Verdure OS and other open source projects.</p>
+			<p>An organization that I'm working on establishing to manage Verdure OS and other open-source projects.</p>
 		</article>
 		<article class="card sharpfnt">
 			<div class="project-title-bar">
@@ -85,8 +101,8 @@
 				<h3>SharpFNT</h3>
 			</div>
 			<p>
-				A C# library for reading and writing AngelCode bitmap fonts in XML, text, and binary. It was originally part of the EvEngine but I decided to separate it and release it as open source. 
-				Since its release, it has received over 80,000 downloads on <a href="https://www.nuget.org/packages/SharpFNT/">NuGet</a> and has found use in other games and game engines.
+				A C# library for reading and writing AngelCode bitmap fonts in XML, text, and binary. It was originally part of the EvEngine, but I decided to separate it and release it as open-source.
+				Since its release, it has received over 100,000 downloads on <a href="https://www.nuget.org/packages/SharpFNT/">NuGet</a> and has found use in other games and game engines.
 			</p>
 		</article>
 		<article class="card fnttools">
@@ -96,7 +112,7 @@
 				</a>
 				<h3>FNTTools</h3>
 			</div>
-			<p>A .NET Core command line tool built off of SharpFNT. It can be used to convert and inspect the properties of AngelCode bitmap fonts.</p>
+			<p>A .NET Core command-line tool built off of SharpFNT. It is capable of converting and inspecting AngelCode bitmap fonts.</p>
 		</article>
 		<article class="card yachtelementary">
 			<div class="project-title-bar">
@@ -105,11 +121,11 @@
 				</a>
 				<h3>Yacht (Elementary)</h3>
 			</div>
-			<p>A GTK3 based implementation of the <a href="https://en.wikipedia.org/wiki/Yacht_(dice_game)">public domain dice game</a> designed specifically for Elementary OS.</p>
+			<p>A GTK3 based implementation of the <a href="https://en.wikipedia.org/wiki/Yacht_(dice_game)">public domain dice game</a> designed specifically for Elementary OS. Postponed until Elementary OS 6 and Everchanging are released.</p>
 		</article>
 		<footer class="card footer">
-			<p class="footer-text">© 2020 Aurora Berta-Oldham</p>
-			<p class="footer-subtext">Color palette based off of EDG32 by <a href="https://twitter.com/ENDESGA">@ENDESGA</a></p>
+			<p class="footer-text">© 2021 Aurora Berta-Oldham</p>
+			<p class="footer-subtext">All other trademarks are property of their respective owners.</p>
 		</footer>
 	</body>
 </html>
