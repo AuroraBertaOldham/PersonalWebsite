@@ -16,22 +16,22 @@ p {
 	margin-block-end: 10px;
 }
 
-a:link
-{
+a:link {
     color: #13bcf7;
     text-decoration: none;
 }
   
-a:link:active, a:visited, a:visited:active 
-{
+a:link:active, a:visited, a:visited:active {
     color: #13bcf7;
 }
 
-.card 
-{
-	background-color: #171b30;
+.card {
+	background-color: rgba(17, 20, 43, 0.75);
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.11);
 	border: 1px solid #424863;
+	backdrop-filter: blur(17px);
+	-webkit-backdrop-filter: blur(17px);
+	border-radius: 5px;
 }
 
 .accent {
